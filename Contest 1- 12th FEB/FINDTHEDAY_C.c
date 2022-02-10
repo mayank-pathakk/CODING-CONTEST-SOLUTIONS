@@ -16,6 +16,7 @@ int main()
         }
         else
         {
+            
             int x = date % 7; // MOD GIVES THE REMAINDER , SO AFTER EVERY 7 DAYS THE DAYS WILL REPEAT
                               // HENCE TAKING MOD 7 GIVES THE GENERAL CASE
             switch (x)
