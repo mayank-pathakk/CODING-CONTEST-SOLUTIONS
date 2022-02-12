@@ -1,7 +1,4 @@
-for _ in range(int(input())):
-    n=int(input())
-    days=["SUNDAY","MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY"]
-    if n<3:
-        print("STUDY")
-    else:
-        print(days[n%7])
+if __name__ == '__main__':
+    M=float(input())
+    H=float(input())*60
+    print(int(H//M)+1)
