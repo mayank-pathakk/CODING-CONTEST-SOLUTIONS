@@ -12,6 +12,7 @@ int main()
         int cnt1 = 0, cnt2 = 0, cnt3 = 0;
         for (int i = 0; i < n; i++)
         {
+            getchar();
             scanf("%c",&x);
             if (x == 'C')
             {
